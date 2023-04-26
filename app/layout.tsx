@@ -7,6 +7,10 @@ export const metadata = {
   description: 'Airbnb clone',
 }
 
+const font = Nunito({
+  subsets: ["latin"],
+});
+
 export default function RootLayout({
   children,
 }: {
